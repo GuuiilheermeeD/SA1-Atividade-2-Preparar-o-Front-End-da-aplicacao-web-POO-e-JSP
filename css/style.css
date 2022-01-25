@@ -149,7 +149,7 @@ label{
 }
 
 
-tr, td{
+tr, th{
     display: flex;
     gap: 30px;
     
