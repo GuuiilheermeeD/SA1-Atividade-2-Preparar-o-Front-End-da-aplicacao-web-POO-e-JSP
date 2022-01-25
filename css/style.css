@@ -1,0 +1,173 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background: rgb(214, 213, 213);
+}
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+}
+
+header{
+    border-radius: 50px;
+    height: 60px;
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.1rem;
+    color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/*Icone de login*/
+#login{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    filter: invert(100%);
+}
+
+/* Menu Dowdrop*/
+.menu{
+    margin: 5px;
+}
+
+.menu:hover{
+    background-color: rgb(53, 52, 52);
+    padding: 5px;
+    border-radius: 20px;
+}
+
+ul li {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    margin-left: -70px;
+    height: 30px;
+    text-align: start;
+    align-items: center;
+}
+
+ul li:hover {
+    text-align-last: left;
+    width: inherit;
+    background-color: rgb(53, 52, 52);
+    
+    
+}
+
+ul ul {
+    position: absolute;
+    display: none;
+    margin: 0;
+    padding: 0px;
+}
+
+ul li:hover ul {
+
+    display: block;
+    
+}
+
+ul li {
+    background-color: black;
+}
+
+/*Pagina de cadastro*/
+.titulo{
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+    margin-bottom: 15px;
+}
+h3{
+  color: #3ada2c;
+}
+
+/*Caixa principal */
+.cadastro{
+    background-color: #f3e9e9;
+    margin: auto; 
+    margin-top: 20px;
+    width: 650px;
+    padding: 10px;
+    border: black 1px solid;
+    border-radius: 20px;
+    box-shadow: black 0px 0px 10px;
+}
+
+
+.mother{
+    width: 550px;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items:baseline;
+    justify-content: end;
+}
+
+label{
+    font-size: 1.3rem;
+}
+/*input*/
+.entrada{
+    width: 250px;
+    margin-left: 40px;
+    justify-content: start;
+}
+
+/*Input Submit*/
+.bnt{
+    margin-left: 50px;
+    margin-bottom: 15px;
+}
+/*Pagina Alteraçao*/
+.bntAltera{
+    margin-left: 690px;
+    margin-top: -40px;
+}
+
+.bntExcluir{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#alert{
+    margin: 10px;
+    font-size: 1.1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.vagas{
+    display: flex;
+    margin-left: 63px;
+}
+
+
+tr, td{
+    display: flex;
+    gap: 30px;
+    
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+
+/*icones de alterar e excluir*/
+.alterExclu{
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    margin-left: 60px;
+}
+
+#posicaoIcon{
+    margin-left: 1015px;
+}
