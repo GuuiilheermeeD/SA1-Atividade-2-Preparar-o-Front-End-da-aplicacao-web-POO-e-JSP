@@ -97,7 +97,7 @@ h3{
     padding: 10px;
     border: black 1px solid;
     border-radius: 20px;
-    box-shadow: black 0px 0px 10px;
+    box-shadow: #000000 0px 0px 10px;
 }
 
 
@@ -124,11 +124,6 @@ label{
 .bnt{
     margin-left: 50px;
     margin-bottom: 15px;
-}
-/*Pagina Alteraçao*/
-.bntAltera{
-    margin-left: 690px;
-    margin-top: -40px;
 }
 
 .bntExcluir{

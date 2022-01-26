@@ -10,26 +10,26 @@
 
 <body>
     <main>
-        <div class="cadastro">
+        <form class="cadastro" action="index.html" onsubmit="return validarTudo()">
 
 
             <div class="titulo">Sistema de Controle de Vagas de Emprego Inclusão </div>
 
             <div class="mother">
                 <div><label>Descriçao</label></div>
-                <div><input type="text" class=" entrada"></div>
+                <div><input type="text" class=" entrada" id ="Descriçao"></div>
             </div>
             <div class="mother">
                 <div> <label> Requisitos Obrigatórios</label></div>
-                <div><input type="text" class=" entrada"></div>
+                <div><input type="text" class=" entrada" id ="reqObri"></div>
             </div>
             <div class="mother">
                 <div> <label>Requisitos Desejaveis</label></div>
-                <div><input type="text" class=" entrada"></div>
+                <div><input type="text" class=" entrada" id ="reqDese"></div>
             </div>
             <div class="mother">
                 <div><label> Remuneração</label></div>
-                <div><input type="text" class=" entrada"></div>
+                <div><input type="text" class=" entrada" id ="remuneracao"></div>
             </div>
             <div class="mother">
                 <label class="vagas" for="radio">Vagas</label>
@@ -38,18 +38,20 @@
             </div>
             <div class="mother">
                 <div><label>Benefícios</label> </div>
-                <div><input type="text" class=" entrada"></div>
+                <div><input type="text" class=" entrada" id ="beneficios"></div>
             </div>
             <div class="mother">
                 <div><label>Local de trabalho </label></div>
-                <div> <input type="text" class=" entrada"></div>
+                <div> <input type="text" class=" entrada" id ="locTrab"></div>
             </div>
 
-        </div>
-        <div class="bntAltera"><a href="index.html"> <input type="submit"></a></div>
+            <div class="bnt"> <input type="submit"></div>
+        </form>
         </div>
 
     </main>
+
+    <script src="JavaScrip/script.js"></script>
 </body>
 
 </html>
